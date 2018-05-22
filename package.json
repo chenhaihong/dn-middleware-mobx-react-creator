@@ -1,0 +1,27 @@
+{
+  "name": "dn-template-mobx-react-creator",
+  "version": "1.0.0",
+  "description": "与dn-template-mobx-react模板配套使用的文件创建中间件",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "dn test"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenhaihong/dn-template-mobx-react"
+  },
+  "author": {
+    "name": "erye",
+    "email": "erye@tiiit.cn",
+    "url": "https://www.tiiit.cn"
+  },
+  "keywords": [
+    "dawn",
+    "react",
+    "mobx"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
