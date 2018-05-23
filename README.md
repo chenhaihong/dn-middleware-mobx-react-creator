@@ -8,7 +8,7 @@ title: 模板文件生成器
 
 与 [dn-template-mobx-react](https://www.npmjs.com/package/dn-template-mobx-react) 模板配套使用的模板文件生成器。
 
-## 一、添加使用配置
+## 一、添加使用配置
 
 在 `.dawn/pipe.yml` 文件中加入以下配置：
 ```sh
