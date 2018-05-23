@@ -1,0 +1,13 @@
+import { get, post } from '@helpers/http';
+
+export default class <%= this.user_inputs.service_name %>Service {
+  // get 请求示例
+  // static getCustomers = (params) => {
+  //   return get('/<%= this.user_inputs.service_name %>/customers.api', params);
+  // }
+
+  // post 请求示例
+  // static projects = (params) => {
+  //   return post('/<%= this.user_inputs.service_name %>/projects.api', params);
+  // }
+}

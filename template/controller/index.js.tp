@@ -1,8 +1,25 @@
-import React, { Component } from 'react';
-import './index.less';
+import { observable, computed } from 'mobx';
 
-export default class <%= this.utils.toCamelCase(this.answers.name.split('/').pop(),1) %> extends Component {
-  render() {
-    return <div><%=this.answers.name%></div>
+// import <%= this.user_inputs.controller_name %>Service from '@services/<%= this.user_inputs.controller_name %>Service';
+
+export default new class <%= this.user_inputs.controller_name %>Controller {
+  constructor() {
+
   }
+
+  // 监听数据示例
+  // @observable username = '';
+  // @observable customers = [];
+
+  // 计算属性示例
+  // @computed get pure_username() {
+  //   const reg = /\s+/ig;
+  //   return this.username.replace(reg, '');
+  // } 
+
+  // 请求示例
+  // async getInfo() {
+  //   let data = service.getCustomers();
+  //   this.customers = data;
+  // }
 }

@@ -1,0 +1,17 @@
+import './index.less';
+
+import React, { Component } from 'react';
+import { observer } from 'mobx-react';
+
+@observer
+class <%= this.user_inputs.component_name %> extends Component {
+  render() {
+    return (
+      <div className={'<%= this.user_inputs.component_name %>'}>
+
+      </div>
+    );
+  }
+}
+
+export default <%= this.user_inputs.component_name %>;
