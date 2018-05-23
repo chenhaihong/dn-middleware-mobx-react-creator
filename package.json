@@ -1,5 +1,5 @@
 {
-  "name": "dn-template-mobx-react-creator",
+  "name": "dn-middleware-mobx-react-creator",
   "version": "1.0.0",
   "description": "与dn-template-mobx-react模板配套使用的模板文件生成器",
   "main": "./lib/index.js",
@@ -9,7 +9,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenhaihong/dn-template-mobx-react-creator"
+    "url": "https://github.com/chenhaihong/dn-middleware-mobx-react-creator"
   },
   "author": {
     "name": "erye",
