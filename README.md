@@ -1,32 +1,34 @@
 ---
-group: template
-name: middleware
-title: 中间件工程
+group: middleware
+name: mobx-react-creator
+title: 模板文件生成器
 ---
 
-## dn-template-middleware
+# dn-middleware-mobx-react-creator
 
-中间件模板，用于快速的创建一个 Dawn 中间件工程，和普通的 node 工程模板相比，该模板已包括一个极简的中间件示例。
+与 [dn-template-mobx-react](https://www.npmjs.com/package/dn-template-mobx-react) 模板配套使用的模板文件生成器。
 
+## 一、添加使用配置
 
-创建一个中间件
-
+在 `.dawn/pipe.yml` 文件中加入以下配置：
 ```sh
-$ dn init -t middleware
+create:
+  - name: mobx-react-creator
 ```
 
-如果你的 dn 连接的是默认服务，也可以从模板列表中选择
+## 二、生成模板
 
 ```sh
-$ dn init
+$ dn run create
 ```
 
-可在以类似如下的菜单中选择 `middleware` 模板
+出现如下的选择菜单，选择一个要生成模板类型，然后，按照提示操作就行。
 ```sh
-? Found 3 templates (Use arrow keys)
-  1. front      : Blank front end project template
-  2. node       : Blank node project template
-❯ 3. middleware : Dawn middleware project template
+? 选择一个模板： (Use arrow keys)
+❯ 1.component
+  2.controller
+  3.mock
+  4.model
+  5.page
+  6.service
 ```
-
-工程初始化完成后，就可以使用 `dn` 相关命令进行开发构建了。
