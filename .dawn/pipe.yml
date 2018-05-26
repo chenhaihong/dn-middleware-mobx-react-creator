@@ -4,8 +4,6 @@ init:
 dev:
   - name: $local
     location: ./lib/index.js
-    gui: true
-    port: 9011
 
 gui_dev:
   - name: clean
