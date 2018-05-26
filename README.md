@@ -32,3 +32,16 @@ $ dn run create
   5.page
   6.service
 ```
+## 三、开启 GUI
+
+修改成以下配置：
+```sh
+create:
+  - name: mobx-react-creator
+    gui: true, # 开启gui，通过网页创建模板，默认不开启
+    port: 8000 # 指定GUI服务端口，如果随机寻找一个可用端口
+```
+
+开启 gui 后，可以在网页上创建模板。
+
+![111](./images/gui.png)
