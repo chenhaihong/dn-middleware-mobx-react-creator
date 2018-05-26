@@ -4,6 +4,16 @@ init:
 dev:
   - name: $local
     location: ./lib/index.js
+
+gui_dev:
+  - name: clean
+  - name: webpack
+    watch: true
+    entry: ./static/src/index.js
+    template: ./static/src/index.html
+    output: ./static/build 
+  - name: $local
+    location: ./lib/index.js
     gui: true
 
 test:
