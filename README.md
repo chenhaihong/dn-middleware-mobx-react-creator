@@ -6,7 +6,7 @@ title: 模板文件生成器
 
 # dn-middleware-mobx-react-creator
 
-与 [dn-template-mobx-react](https://www.npmjs.com/package/dn-template-mobx-react) 模板配套使用的模板文件生成器。
+与 [dn-template-mobx-react](https://www.npmjs.com/package/dn-template-mobx-react) 模板配套使用的模板文件生成器，可以通过命令行或者网页客户端来生成模板文件。
 
 ## 一、添加使用配置
 
@@ -44,4 +44,4 @@ create:
 
 开启 gui 后，可以在网页上创建模板。
 
-![111](./images/gui.png)
+![GUI](./images/gui.png)

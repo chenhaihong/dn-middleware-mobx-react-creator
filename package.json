@@ -1,7 +1,7 @@
 {
   "name": "dn-middleware-mobx-react-creator",
   "version": "1.1.0",
-  "description": "与dn-template-mobx-react模板配套使用的模板文件生成器",
+  "description": "与dn-template-mobx-react模板配套使用的模板文件生成器，可以通过命令行或者网页客户端来生成模板文件。",
   "main": "./lib/index.js",
   "scripts": {
     "test": "dn test"
