@@ -16,13 +16,35 @@ create:
   - name: mobx-react-creator
 ```
 
-## 二、生成模板
+## 二、使用 GUI 生成模板文件
+
+执行以下命令启动 gui：
+
+```sh
+$ dn run create
+```
+
+![GUI](./images/gui.png)
+
+
+## 三、使用命令行生成模板文件
+
+修改成以下配置：
+
+```sh
+create:
+  - name: mobx-react-creator
+    gui: false
+```
+
+执行命令：
 
 ```sh
 $ dn run create
 ```
 
 出现如下的选择菜单，选择一个要生成模板类型，然后，按照提示操作就行。
+
 ```sh
 ? 选择一个模板： (Use arrow keys)
 ❯ 1.component
@@ -32,16 +54,3 @@ $ dn run create
   5.page
   6.service
 ```
-## 三、开启 GUI
-
-修改成以下配置：
-```sh
-create:
-  - name: mobx-react-creator
-    gui: true, # 开启gui，通过网页创建模板，默认不开启
-    port: 8000 # 指定GUI服务端口，如果随机寻找一个可用端口
-```
-
-开启 gui 后，可以在网页上创建模板。
-
-![GUI](./images/gui.png)
