@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "list": [
+    {
+      "id": 1,
+      "first_name": "Michale",
+      "last_name": "Jordan"
+    },
+    {
+      "id": 2,
+      "first_name": "James",
+      "last_name": "Harden"
+    },
+    {
+      "id": 3,
+      "first_name": "Lebron",
+      "last_name": "James"
+    }
+  ]
+}

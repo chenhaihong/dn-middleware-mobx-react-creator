@@ -1,0 +1,11 @@
+import users from '../res/<%= this.user_inputs.mock_name %>/users.json';
+
+// get 示例
+// faked.when('get', '/<%= this.user_inputs.mock_name %>/users.api', function () {
+//   this.send(users);
+// });
+
+// post 示例
+// faked.when('post', '/<%= this.user_inputs.mock_name %>/users.api', function () {
+//   this.send(users);
+// });

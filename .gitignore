@@ -3,6 +3,5 @@
 node_modules/
 .nyc_output/
 coverage/
-build/
 src/
-mock/
+/mock/

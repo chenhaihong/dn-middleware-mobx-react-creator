@@ -9,12 +9,13 @@ gui_dev:
   - name: clean
   - name: webpack
     watch: true
-    entry: ./static/src/index.js
-    template: ./static/src/index.html
-    output: ./static/build 
+    entry: ./static/index.js
+    template: ./static/index.html
+    output: ./build 
   - name: $local
     location: ./lib/index.js
     gui: true
+    # port: 8090
 
 test:
   - name: lint
