@@ -24,7 +24,7 @@ create:
 $ dn run create
 ```
 
-![GUI](./images/gui.png)
+![GUI](images/gui.png)
 
 
 ## 三、使用命令行生成模板文件
